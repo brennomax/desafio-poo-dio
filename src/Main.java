@@ -1,4 +1,3 @@
-import br.com.dio.desafio.dominio.Bootcamp;
 import br.com.dio.desafio.dominio.Curso;
 import br.com.dio.desafio.dominio.Dev;
 import br.com.dio.desafio.dominio.Mentoria;
@@ -26,7 +25,7 @@ public class Main {
         System.out.println(curso2);
         System.out.println(mentoria);*/
 
-        Bootcamp bootcamp = new Bootcamp();
+        Curso.Bootcamp bootcamp = new Curso.Bootcamp();
         bootcamp.setNome("Bootcamp Java Developer");
         bootcamp.setDescricao("Descrição Bootcamp Java Developer");
         bootcamp.getConteudos().add(curso1);
@@ -59,5 +58,4 @@ public class Main {
         System.out.println("XP:" + devJoao.calcularTotalXp());
 
     }
-
 }
